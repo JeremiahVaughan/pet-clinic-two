@@ -41,7 +41,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:piegarden/sfg-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:piegarden/pet-clinic-two.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
