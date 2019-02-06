@@ -41,8 +41,8 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git@github.com:piegarden/sfg-pet-clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-jeremiah-0.0.1</tag>
+        <developerConnection>scm:git:git@github.com:piegarden/sfg-pet-clinic.git</developerConnection>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
