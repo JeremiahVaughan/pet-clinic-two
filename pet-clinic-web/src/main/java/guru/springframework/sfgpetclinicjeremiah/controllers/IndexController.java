@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinicjeremiah.Controllers;
+package guru.springframework.sfgpetclinicjeremiah.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
