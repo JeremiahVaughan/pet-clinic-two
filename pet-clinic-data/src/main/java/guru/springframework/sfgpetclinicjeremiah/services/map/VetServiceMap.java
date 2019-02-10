@@ -4,9 +4,11 @@ package guru.springframework.sfgpetclinicjeremiah.services.map;
 import guru.springframework.sfgpetclinicjeremiah.model.Vet;
 import guru.springframework.sfgpetclinicjeremiah.services.CrudService;
 import guru.springframework.sfgpetclinicjeremiah.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 

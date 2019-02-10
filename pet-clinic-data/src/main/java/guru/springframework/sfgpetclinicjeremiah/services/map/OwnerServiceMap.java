@@ -3,9 +3,11 @@ package guru.springframework.sfgpetclinicjeremiah.services.map;
 import guru.springframework.sfgpetclinicjeremiah.model.Owner;
 import guru.springframework.sfgpetclinicjeremiah.services.CrudService;
 import guru.springframework.sfgpetclinicjeremiah.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService{
 
 
