@@ -3,10 +3,11 @@ package guru.springframework.sfgpetclinicjeremiah.services.map;
 
 import guru.springframework.sfgpetclinicjeremiah.model.Vet;
 import guru.springframework.sfgpetclinicjeremiah.services.CrudService;
+import guru.springframework.sfgpetclinicjeremiah.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
 
     @Override
@@ -34,4 +35,6 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements Crud
     public Vet save(Vet object) {
         return super.save(object.getId(), object);
     }
+
+
 }
